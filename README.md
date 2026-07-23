@@ -2,12 +2,19 @@
 This is a .NET 8.0 web API for managing restaurants, following the principles of Clean Architecture.
 
 Project Structure
+
 src/Restaurants.API: The main API project. This is the entry point of the application.
+
 src/Restaurants.Application: Contains the application logic. This layer is responsible for the application's behavior and policies.
+
 src/Restaurants.Domain: Contains enterprise logic and types. This is the core layer of the application.
+
 src/Restaurants.Infrastructure: Contains infrastructure-related code such as database and file system interactions. This layer supports the higher layers.
+
 tests/Restaurants.API.Tests: Contains unit tests for the API.
+
 Packages and Libraries
+
 This project uses several NuGet packages and libraries to achieve its functionality:
 
 Serilog: This library is used for logging. It provides a flexible and easy-to-use logging API.
